@@ -1,20 +1,28 @@
+import java.util.*;
 import java.io.*;
-class beg1
+public class beg1
 {
     public static void main(String[] args)
     {
-        int n=3;
-        
-        if (n < 0)
+        int number;
+        Scanner s=new Scanner(System.in);
+        System.out.println("input:");
+        number=s.nextInt();
+      
+       
+        if (number < 0)
         {
+            System.out.println("\noutput:");
             System.out.println("Negative");
         }
-        else if(n > 0)
+        else if(number > 0)
         {
-         System.out.println("Positive");   
+         System.out.println("\noutput:");
+         System.out.println("Positive");  
         }
         else
         {
+            System.out.println("\noutput:");
             System.out.println("Zero");
         }
     }
