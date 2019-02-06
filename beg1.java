@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class beg1
+class beg1
 {
     public static void main(String[] args)
     {
